@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+}
+.d1{
+    border-radius:5px ;
+    
+    background-color: white;
+    overflow: hidden;
+    /width: 100%;    
+    
+}
+.p1{
+    background-color: antiquewhite;
+    padding:15px 30px;
+    text-align: center;
+    
+}
+.form{
+    padding: 30px 40px;
+}
+.i1{
+    padding:10px 20px;
+}
+.i11{
+    padding-left: 60px;
+}
+.b1:hover{
+    background-color:green;
+}
+input{
+    border:2px solid rgb(175, 173, 173);
+    border-radius: 4px;
+}
+.i1 i{
+    position: absolute;
+    /right :560px;
+    /visibility:hidden;
+}
+.i1 small{
+    color:red;
+    position:absolute;
+    visibility: hidden;
+    
+    
+}
+.i1.error i{
+    color:red;
+    visibility:visible;
+}
